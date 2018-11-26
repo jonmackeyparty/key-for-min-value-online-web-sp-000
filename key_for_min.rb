@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
     if value < min_val 
          min_val = value
          min_key = key
+    else nil
     end
 # going to need to use name_hash.key(#{min_val}) at the end to produce the right key from the the value compared above.
  
