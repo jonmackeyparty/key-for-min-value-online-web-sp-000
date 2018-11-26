@@ -12,7 +12,8 @@ def key_for_min_value(name_hash)
          min_key = key
     end
 # going to need to use name_hash.key(#{min_val}) at the end to produce the right key from the the value compared above.
-  min_key
+ 
   end
 end
+min_key
 end
